@@ -31,13 +31,13 @@ while True:
     # check for packet rx
     packet = rfm9x.receive()
     if packet is None:
-        Serial.print("No Data in packet")
+       print("No Data in packet")
     else:
         # Display the packet text and rssi
         prev_packet = packet
         packet_text = str(prev_packet, "utf-8")
-        Serial.print('RX: ', 0, 0, 1)
-        Serial.print(packet_text, 25, 0, 1)
+        print('RX: ', 0, 0, 1)
+        print(packet_text, 25, 0, 1)
         time.sleep(1)
  
  
