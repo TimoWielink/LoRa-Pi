@@ -13,8 +13,7 @@ import board
 # Import RFM9x
 import adafruit_rfm9x
 
-# Create the I2C interface.
-i2c = busio.I2C(board.SCL, board.SDA)
+
  
 
  
