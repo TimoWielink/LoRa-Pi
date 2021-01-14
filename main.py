@@ -38,8 +38,8 @@ while True:
         packet_text = str(prev_packet, "utf-8")
         print('RX: ', 0, 0, 1)
         print(packet_text, 25, 0, 1)
-        time.sleep(1)
+        time.sleep(5)
  
  
 
-    time.sleep(0.1)
+    time.sleep(1)
