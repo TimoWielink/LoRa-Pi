@@ -41,5 +41,5 @@ while True:
         time.sleep(1)
  
  
-    display.show()
+
     time.sleep(0.1)
